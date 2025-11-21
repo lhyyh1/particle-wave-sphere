@@ -2,7 +2,7 @@
  * React wrapper for particle-wave-sphere
  */
 import React, { useEffect, useRef, useImperativeHandle, forwardRef } from 'react'
-import { createParticleWaveSphere } from '../src/index.js'
+import { createParticleWaveSphere } from 'particle-wave-sphere'
 
 export const ParticleWaveSphere = forwardRef((props, ref) => {
   const { width = 300, height = 300, ...rest } = props

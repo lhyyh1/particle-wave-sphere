@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { createParticleWaveSphere } from '../../src/index.js'
+import { createParticleWaveSphere } from 'particle-wave-sphere'
 
 export default {
   name: 'ParticleWaveSphere',

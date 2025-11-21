@@ -1,7 +1,7 @@
 /**
  * Vue 2 wrapper for particle-wave-sphere
  */
-import { createParticleWaveSphere } from '../src/index.js'
+import { createParticleWaveSphere } from 'particle-wave-sphere'
 export default {
   name: 'ParticleWaveSphere',
   props: {

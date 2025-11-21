@@ -2,7 +2,7 @@
  * Vue 3 wrapper (no SFC) for particle-wave-sphere
  */
 import { onMounted, onBeforeUnmount, ref, watch, defineComponent, h } from 'vue'
-import { createParticleWaveSphere } from '../src/index.js'
+import { createParticleWaveSphere } from 'particle-wave-sphere'
 
 export default defineComponent({
   name: 'ParticleWaveSphere',
