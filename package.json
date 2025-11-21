@@ -15,7 +15,7 @@
     "canvas",
     "visualization"
   ],
-  "author": "",
+  "author": "lhyyh <lhy5201314yh@gmail.com>",
   "license": "MIT",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
