@@ -1,6 +1,6 @@
 {
   "name": "particle-wave-sphere",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A beautiful WebGL particle wave sphere animation library with support for React, Vue 2/3, and UniApp",
   "keywords": [
     "particle",
