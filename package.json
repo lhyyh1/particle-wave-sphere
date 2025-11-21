@@ -1,0 +1,76 @@
+{
+  "name": "particle-wave-sphere",
+  "version": "0.2.1",
+  "description": "A beautiful WebGL particle wave sphere animation library with support for React, Vue 2/3, and UniApp",
+  "keywords": [
+    "particle",
+    "wave",
+    "sphere",
+    "webgl",
+    "animation",
+    "3d",
+    "react",
+    "vue",
+    "uniapp",
+    "canvas",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check:types": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "prepublish": "npm run build && npm run check:types"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhyyh1/particle-wave-sphere.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lhyyh1/particle-wave-sphere/issues"
+  },
+  "homepage": "https://github.com/lhyyh1/particle-wave-sphere#readme",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./dist/*": "./dist/*",
+    "./vue2": {
+      "default": "./vue2/index.js"
+    },
+    "./vue2/*": "./vue2/*",
+    "./vue3": {
+      "default": "./vue3/index.js"
+    },
+    "./vue3/*": "./vue3/*",
+    "./react": {
+      "default": "./react/index.js"
+    },
+    "./react/*": "./react/*",
+    "./uni-app": {
+      "default": "./wrappers/uni-app/index.js"
+    },
+    "./uni-app/*": "./wrappers/uni-app/*"
+  },
+  "files": [
+    "dist",
+    "types",
+    "vue2",
+    "vue3",
+    "react",
+    "wrappers",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,1 @@
+<template><canvas/></template><script setup>defineProps({})</script>

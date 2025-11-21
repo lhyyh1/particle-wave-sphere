@@ -1,0 +1,1 @@
+<template><canvas/></template><script>export default {name:'ParticleWaveSphere'}</script>

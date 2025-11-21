@@ -1,0 +1,1 @@
+<view style="position:relative;width:{{width}}px;height:{{height}}px;"><canvas type="webgl" id="cv" style="width:100%;height:100%;display:block;background: {{backgroundColor}}"></canvas></view>
