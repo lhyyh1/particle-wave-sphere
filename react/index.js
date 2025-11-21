@@ -1,1 +1,1 @@
-export { default as ParticleWaveSphere } from './ParticleWaveSphere.jsx'
+export { ParticleWaveSphere, ParticleWaveSphere as default } from '../wrappers/react/index.jsx'

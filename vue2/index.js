@@ -1,1 +1,1 @@
-export { default as ParticleWaveSphere } from './ParticleWaveSphere.vue'
+export { default as ParticleWaveSphere, default } from '../wrappers/vue2/index.js'
